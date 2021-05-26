@@ -1,4 +1,6 @@
-pragma solidity >=0.6.4;
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+pragma solidity >=0.4.0;
 
 interface IBEP20 {
     /**
@@ -74,7 +76,11 @@ interface IBEP20 {
      *
      * Emits a {Transfer} event.
      */
-    function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
+    function transferFrom(
+        address sender,
+        address recipient,
+        uint256 amount
+    ) external returns (bool);
 
     /**
      * @dev Emitted when `value` tokens are moved from one account (`from`) to
