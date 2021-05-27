@@ -135,7 +135,7 @@ async function add(masterChefAddress, allocPoint, lpTokenAddress, depositFee, wi
         });
 }
 
-  setupSmartChef()
+//setupSmartChef()
 
 async function setupSmartChef() {
     const accountData = mainAccount
